@@ -1,18 +1,18 @@
 Algoritmo "funcionario_e_salario"
-// Este programa lÍ o nome e o sal·rio de um funcion·rio
-// e exibe uma mensagem com as informaÁıes
+// Este programa l√™ o nome e o sal√°rio de um funcion√°rio
+// e exibe uma mensagem com as informa√ß√µes
 Var
    nome_do_funcionario : caractere
    salario_do_funcionario : real
    
 Inicio
       // Entrada de dados
-      escreva("Nome do funcion·rio: ")
+      escreva("Nome do funcion√°rio: ")
       leia(nome_do_funcionario)
 
-      escreva("Sal·rio do funcion·rio: R$")
+      escreva("Sal√°rio do funcion√°rio: R$")
       leia(salario_do_funcionario)
       
-      // SaÌda do resultado
-      escreva("O funcion·rio ", nome_do_funcionario, " recebe o sal·rio de R$", salario_do_funcionario:3:3)
+      // Sa√≠da do resultado
+      escreva("O funcion√°rio ", nome_do_funcionario, " recebe o sal√°rio de R$", salario_do_funcionario:0:2)
 Fimalgoritmo
