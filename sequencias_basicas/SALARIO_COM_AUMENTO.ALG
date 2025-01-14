@@ -1,18 +1,19 @@
 Algoritmo "salario_com_aumento"
-//Faça um algoritmo que leia o salário de um funcionário,
-//calcule e mostre o seu novo salário, com 15% de aumento
+//FaÃ§a um algoritmo que leia o salÃ¡rio de um funcionÃ¡rio,
+//calcule e mostre o seu novo salÃ¡rio, com 15% de aumento
 Var
-   salario_funcionario, aumento, salario_com_aumento : real
+   salario_do_funcionario, aumento, salario_com_aumento : real
+
 Inicio
    // Entrada de dados
-   escreva("Digite o salário do funcionário: R$")
-   leia(salario_funcionario)
+   escreva("Digite o salÃ¡rio do funcionÃ¡rio: R$")
+   leia(salario_do_funcionario)
    
-   // Cálculos
-   aumento <- salario_funcionario * 0.15
+   // CÃ¡lculos
+   aumento <- salario_do_funcionario * 0.15
 
-   salario_com_aumento <- salario_funcionario + aumento
+   salario_com_aumento <- salario_do_funcionario + aumento
    
-   // Saída do resultado
-   escreva("O salário com o aumento de 15% fica: R$", salario_com_aumento:0:2)
+   // SaÃ­da do resultado
+   escreva("O salÃ¡rio com o aumento de 15% fica: R$", salario_com_aumento:0:2)
 Fimalgoritmo
