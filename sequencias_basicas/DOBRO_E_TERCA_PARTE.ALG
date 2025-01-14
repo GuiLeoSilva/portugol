@@ -1,17 +1,18 @@
 Algoritmo "dobro_e_terca_parte"
-// Calcula e exibe o dobro e a terça parte de um número real
+// Calcula e exibe o dobro e a terÃ§a parte de um nÃºmero real
 Var
    numero, dobro, terca_parte : real
 
 Inicio
    // Entrada de dados
-   escreva("Digite um número: ")
+   escreva("Digite um nÃºmero: ")
    leia(numero)
    
-   // Cálculos
+   // CÃ¡lculos
    dobro <- numero * 2
+
    terca_parte <- numero / 3
 
-   // Saída do resultado
-   escreva("O dobro do número digitado é: ", dobro, " e a sua terça parte é: ", terca_parte:2:2)
+   // SaÃ­da do resultado
+   escreva("O dobro do nÃºmero digitado Ã©: ", dobro, " e a sua terÃ§a parte Ã©: ", terca_parte:2:2)
 Fimalgoritmo
