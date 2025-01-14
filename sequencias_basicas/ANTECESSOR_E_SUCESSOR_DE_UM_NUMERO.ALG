@@ -1,17 +1,18 @@
 Algoritmo "antecessor_e_sucessor_de_um_numero"
-// Lê um número inteiro e exibe seu antecessor e sucessor
+// LÃª um nÃºmero inteiro e exibe seu antecessor e sucessor
 Var
    numero, antecessor, sucessor : inteiro
 
 Inicio
    // Entrada de dados
-   escreva("Digite um número: ")
+   escreva("Digite um nÃºmero: ")
    leia(numero)
 
-   // Cálculo do antecessor e sucessor
+   // CÃ¡lculos
    antecessor <- numero - 1
+
    sucessor <- numero + 1
 
-   // Saída do resultado
-   escreva("O antecessor de ", numero, " é ", antecessor, " e o sucessor é ", sucessor)
+   // SaÃ­da do resultado
+   escreva("O antecessor de ", numero, " Ã© ", antecessor, " e o sucessor Ã© ", sucessor)
 Fimalgoritmo
