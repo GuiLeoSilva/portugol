@@ -1,18 +1,19 @@
 Algoritmo "soma_dois_numeros"
-// Programa que lê dois números inteiros e exibe a soma entre eles
+// Programa que lÃª dois nÃºmeros inteiros e exibe a soma entre eles
 Var
    numero1, numero2, soma : inteiro
+
 Inicio
    // Entrada de dados
-   escreva("Digite o primeiro número: ")
+   escreva("Digite o primeiro nÃºmero: ")
    leia(numero1)
 
-   escreva("Digite o segundo número: ")
+   escreva("Digite o segundo nÃºmero: ")
    leia(numero2)
 
-   // Cálculo
+   // CÃ¡lculo
    soma <- numero1 + numero2
 
-   // Saída do resultado
+   // SaÃ­da do resultado
    escreva("A soma de ", numero1, " +", numero2, " resulta em",soma)
 Fimalgoritmo
