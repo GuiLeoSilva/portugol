@@ -1,9 +1,10 @@
 Algoritmo "multa"
 // Verifica multa por excesso de velocidade
-// Velocidade m·xima permitida: 80 Km/h
+// Velocidade m√°xima permitida: 80 Km/h
 // Multa: R$5 por Km acima do limite
 Var
    velocidade_do_carro, multa : real
+
 Inicio
    // Entrada de dados
    escreva("Qual a velocidade do carro: ")
@@ -11,11 +12,11 @@ Inicio
 
    // Verifica se a multa deve ser aplicada
    se (velocidade_do_carro <= 80) entao
-      escreva("VocÍ n„o foi multado")
+      escreva("Voc√™ n√£o foi multado")
    senao
-      // C·lculo
+      // C√°lculo
       multa <- (velocidade_do_carro - 80) * 5
 
-      escreva("VocÍ foi multado em ", multa)
+      escreva("Voc√™ foi multado em ", multa)
    fimse
 Fimalgoritmo
