@@ -1,6 +1,6 @@
 Algoritmo "media_aluno"
-// Calcula a média de notas de um aluno e avaliar o desempenho.
-// Critério de aprovação: Média >= 7.0
+// Calcula a mÃ©dia de notas de um aluno e avaliar o desempenho.
+// CritÃ©rio de aprovaÃ§Ã£o: MÃ©dia >= 7.0
 Var
    nota1, nota2, media : real
 
@@ -12,16 +12,16 @@ Inicio
    escreva("Qual a segunda nota: ")
    leia(nota2)
 
-   // Cálculo
+   // CÃ¡lculo
    media <- (nota1 + nota2) / 2
 
-   // Mostra a média
-   escreval("Sua média foi: ", media)
+   // Exibe a mÃ©dia
+   escreval("Sua mÃ©dia foi: ", media)
 
-   // Verifica se a média é suficiente pra passar
+   // Verifica se a mÃ©dia Ã© suficiente pra passar
    se (media >= 7) entao
-      escreva("Você foi aprovado")
+      escreva("VocÃª foi aprovado")
    senao
-      escreva("Você não foi aprovado")
+      escreva("VocÃª nÃ£o foi aprovado")
    fimse
 Fimalgoritmo
