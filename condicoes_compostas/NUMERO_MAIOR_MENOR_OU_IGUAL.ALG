@@ -1,26 +1,25 @@
 Algoritmo "numero_maior_menor_ou_igual"
-// Este programa lê dois números inteiros e compara-os,
-// mostrando se o primeiro é maior, o segundo é maior, ou se são iguais.
-
+// Este programa lÃª dois nÃºmeros inteiros e compara-os,
+// mostrando se o primeiro Ã© maior, o segundo Ã© maior, ou se sÃ£o iguais.
 Var
    numero1, numero2 : inteiro
 
 Inicio
    // Entrada de dados
-   escreva("Digite um número: ")
+   escreva("Digite um nÃºmero: ")
    leia(numero1)
 
-   escreva("Escreve outro número: ")
+   escreva("Escreve outro nÃºmero: ")
    leia(numero2)
 
-   // Verifica qual número é o maior
+   // Verifica qual nÃºmero Ã© o maior
    se (numero1 < numero2) entao
-      escreva("O segundo número é maior que o primeiro")
+      escreva("O segundo nÃºmero Ã© maior que o primeiro")
    senao
       se (numero1 > numero2) entao
-         escreva("O primeiro número é maior que o segundo")
+         escreva("O primeiro nÃºmero Ã© maior que o segundo")
       senao
-         escreva("Os dois números são iguais")
+         escreva("Os dois nÃºmeros sÃ£o iguais")
       fimse
    fimse
 Fimalgoritmo
